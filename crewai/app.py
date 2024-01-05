@@ -12,7 +12,7 @@
 import os
 from crewai import Agent, Task, Crew, Process
 
-os.environ["OPENAI_API_KEY"] = "YOUR_OPENAI_API_KEY"
+os.environ["OPENAI_API_KEY"] = "[Get api key from openai website]"
 
 # Define your tools, custom or not.
 # Install duckduckgo-search for this example:
@@ -21,7 +21,7 @@ os.environ["OPENAI_API_KEY"] = "YOUR_OPENAI_API_KEY"
 from langchain.tools import DuckDuckGoSearchRun
 search_tool = DuckDuckGoSearchRun()
 
-company_name = "IBM"
+company_name = "Apple"
 
 # Define your agents with roles and goals
 researcher = Agent(
@@ -47,26 +47,47 @@ writer = Agent(
   allow_delegation=True
 )
 
+presenter = Agent(
+    role='PowerPoint Presentation Specialist',
+    goal='Design clean, concise PowerPoint presentations with effective use of images',
+    backstory="""You are a PowerPoint Presentation Specialist known for creating 
+    visually appealing and impactful presentations. Your expertise includes 
+    synthesizing information into clear, concise slides and selecting or creating 
+    images that enhance the message. You have a keen eye for design and layout, 
+    ensuring that each slide is both informative and engaging.""",
+    verbose=True,
+    allow_delegation=True
+)
+
+
 # Create tasks for your agents
 task1 = Task(
   description="""Research the specified companies' financial statements and
   analyze their financial trends. Compile your findings in a detailed report. 
-  Your final answer MUST be a full analysis report""",
+  Make sure to include links to the financial statements you used.""",
   agent=researcher
 )
 
 task2 = Task(
-  description="""Using the insights from the researcher's report, develop an engaging blog
-  report that highlights the latest financial trends.
-  Your post should be informative yet accessible, catering to a regular audience.
-  Your final answer MUST be a full report that breaks down the financial trends.""",
+  description="""Using the insights from the researcher's report, craft a
+  compelling article that highlights the latest financial trends that can be
+  handed to the presentation specialist to create a PowerPoint presentation. 
+  Make sure to include links to the financial statements you used. """,
   agent=writer
+)
+
+task3 = Task(
+  description="""Using the insights from the researcher's report and the
+  writer's article, create a PowerPoint presentation that highlights the latest
+  financial trends. Make sure to include links to the financial statements you
+  used. Also make sure to include a description of the images used for each slide. """,
+  agent=presenter
 )
 
 # Instantiate your crew with a sequential process
 crew = Crew(
-  agents=[researcher, writer],
-  tasks=[task1, task2],
+  agents=[researcher, writer, presenter],
+  tasks=[task1, task2, task3],
   verbose=2, # Crew verbose more will let you know what tasks are being worked on, you can set it to 1 or 2 to different logging levels
   process=Process.sequential # Sequential process will have tasks executed one after the other and the outcome of the previous one is passed as extra content into this next.
 )

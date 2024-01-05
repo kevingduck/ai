@@ -2,7 +2,7 @@
 #
 # 1. Install with `pip install crewai duckduckgo-search`
 # 
-# 2. Add your OpenAI API key, or update the code with an open source model
+# 2. Download this file and add your OpenAI API key, or update the code with an open source model
 #
 # 3. Update the contents below (change the roles, goals, backstories, tasks, etc.)
 # 

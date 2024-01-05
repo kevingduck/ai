@@ -16,15 +16,15 @@ Here are some links to AI tools that I find useful.
 - Prompting (i.e., the instructions you give to the model) determines whether your GPT outputs will be any good. Better prompts = better responses. [This post](https://cloud.google.com/blog/products/application-development/five-best-practices-for-prompt-engineering) has some tips on prompting.
 
 ## YouTube Channels
-- [Matthew Berman](https://www.youtube.com/@matthew_berman) has frequent videos where he tests new apps and models
+- [Matthew Berman](https://www.youtube.com/@matthew_berman) makes lots of videos where he tests new AI apps and models. Good for keeping up with latest trends. 
 - [David Shapiro](https://www.youtube.com/@DaveShap) has lots of content discussing the latest AI developments, implications, predictions, etc.
 
 ## AI Tools
+- [GitHub Copilot](https://github.com/features/copilot) - install it in a code editor like VS Code and start writing ... it will generate the code for you. Must-have for programming now since it speeds up and improves development so dramatically. 
 - [simplfied.ai](simplfied.ai) - Presentation maker
 - [invideo.ai](invideo.ai) - Video maker
-- [GitHub Copilot](https://github.com/features/copilot) - install it in a code editor like VS Code and start writing ... it will generate the code for you. Must-have for programming now since it speeds up and improves development so dramatically. 
 
-## Noteworthy
-- [crewai](https://github.com/joaomdmoura/crewAI) is impressive. In a few lines of code, you set up a **team** of specialists and give them a goal and they work together to achieve it.
+## Noteworthy Links
+- [crewai](https://github.com/joaomdmoura/crewAI) is really impressive. In a few lines of code, you set up a **team** of specialists and give them a goal and they work together to achieve it.
   - Example: you set up a researcher and also a writer, then tell them to analyze and report on the latest financial statements from a given company. The researcher finds the information online and the writer generates a report based off of the researcher's analysis.
   - Try this out here: https://github.com/kevingduck/ai/blob/main/crewai/app.py

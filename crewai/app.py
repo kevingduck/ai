@@ -1,6 +1,6 @@
 # Example implementation of CrewAI
 #
-# 1. Install with `pip install crewai`
+# 1. Install with `pip install crewai duckduckgo-search`
 # 
 # 2. Add your OpenAI API key, or update the code with an open source model
 #

@@ -21,6 +21,7 @@ Here are some links to AI tools that I find useful.
 
 ## AI Tools
 - [GitHub Copilot](https://github.com/features/copilot) - install it in a code editor like VS Code and start writing ... it will generate the code for you. Must-have for programming now since it speeds up and improves development so dramatically. 
+- [Social media automation](https://zapier.com/blog/best-ai-social-media-management/) - apps to help create, schedule social media posts
 - [simplfied.ai](simplfied.ai) - Presentation maker
 - [invideo.ai](invideo.ai) - Video maker
 

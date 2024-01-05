@@ -23,3 +23,7 @@ Here are some links to AI tools that I find useful.
 - [simplfied.ai](simplfied.ai) - Presentation maker
 - [invideo.ai](invideo.ai) - Video maker
 - [GitHub Copilot](https://github.com/features/copilot) - install it in a code editor like VS Code and start writing ... it will generate the code for you. Must-have for programming now since it speeds up and improves development so dramatically. 
+
+## Noteworthy
+- [crewai](https://github.com/joaomdmoura/crewAI) is impressive. In a few lines of code, you set up a **team** of specialists and give them a goal and they work together to achieve it.
+  - Example: you set up a researcher and also a writer, then tell them to analyze and report on the latest financial statements from a given company. The researcher finds the information online and the writer generates a report based off of the researcher's analysis. 

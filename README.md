@@ -26,4 +26,5 @@ Here are some links to AI tools that I find useful.
 
 ## Noteworthy
 - [crewai](https://github.com/joaomdmoura/crewAI) is impressive. In a few lines of code, you set up a **team** of specialists and give them a goal and they work together to achieve it.
-  - Example: you set up a researcher and also a writer, then tell them to analyze and report on the latest financial statements from a given company. The researcher finds the information online and the writer generates a report based off of the researcher's analysis. 
+  - Example: you set up a researcher and also a writer, then tell them to analyze and report on the latest financial statements from a given company. The researcher finds the information online and the writer generates a report based off of the researcher's analysis.
+  - Try this out here: https://github.com/kevingduck/ai/blob/main/crewai/app.py

@@ -8,7 +8,7 @@ This script sets up an automated workflow using CrewAI and LangChain libraries t
 5. Organizes these agents and their tasks into a Crew, executing the tasks in a sequential process.
 6. Finally, the script runs the workflow and prints the results, which include research findings, written content, and presentation details.
 
-You need ollama installed (see ollama.ai). This example uses the model 'mistral:instruct', which you can download in a terminal with `ollama run mistral:instruct`.
+You need ollama installed (see https://ollama.ai). This example uses the model 'mistral:instruct', which you can download in a terminal with `ollama run mistral:instruct`.
 
 You also need crewai and duckduckgo-search installed with `pip install -U crewai duckduckgo-search`
 """

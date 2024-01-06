@@ -1,3 +1,17 @@
+"""
+This script sets up an automated workflow using CrewAI and LangChain libraries to analyze financial trends for a specified company (in this case, Microsoft). It utilizes the following steps:
+
+1. Initializes an Ollama open source language model for processing natural language tasks.
+2. Defines a DuckDuckGo search tool for information retrieval.
+3. Creates three specialized agents - a Researcher, a Writer, and a Presenter - each with distinct roles and goals related to financial analysis and content creation.
+4. Assigns specific tasks to each agent: the Researcher analyzes financial statements, the Writer creates content based on the analysis, and the Presenter designs a PowerPoint presentation.
+5. Organizes these agents and their tasks into a Crew, executing the tasks in a sequential process.
+6. Finally, the script runs the workflow and prints the results, which include research findings, written content, and presentation details.
+
+This automated system demonstrates the integration of natural language processing, task delegation, and workflow management for efficient business intelligence and content creation.
+"""
+
+
 import os
 from crewai import Agent, Task, Crew, Process
 from langchain.llms import Ollama

@@ -45,10 +45,10 @@ researcher = Agent(
 )
 writer = Agent(
   role='Financial Content Strategist',
-  goal='Craft compelling content that highlights the latest financial trends',
+  goal=f'Craft compelling content that highlights {company_name}\'s latest finances.',
   backstory="""You are a Financial Content Strategist at a leading financial firm.
   Your expertise lies in crafting compelling content that highlights the latest
-  financial trends. You are known for your ability to translate complex financial
+  financial insights. You are known for your ability to translate complex financial
   concepts into engaging narratives.""",
   verbose=True,
   allow_delegation=True,
@@ -71,8 +71,8 @@ presenter = Agent(
 
 # Create tasks for your agents
 task1 = Task(
-  description="""Research the specified companies' most recent financial statements and
-  analyze their financials. Compile your findings in a detailed report. """,
+  description="""Research the specified companies' most recent financial news and 
+  financial statements and summarize your findings into a detailed report. """,
   agent=researcher
 )
 

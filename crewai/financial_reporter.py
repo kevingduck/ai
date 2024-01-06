@@ -27,7 +27,7 @@ ollama_mistral = Ollama(model="mistral:instruct")
 from langchain.tools import DuckDuckGoSearchRun
 search_tool = DuckDuckGoSearchRun()
 
-company_name = "Microsoft"
+company_name = "OpenAI"
 
 # Define your agents with roles and goals
 researcher = Agent(
@@ -72,14 +72,15 @@ presenter = Agent(
 # Create tasks for your agents
 task1 = Task(
   description="""Research the specified companies' most recent financial news and 
-  financial statements and summarize your findings into a detailed report. """,
+  financial statements and summarize your findings into a lengthy, detailed report. """,
   agent=researcher
 )
 
 task2 = Task(
   description="""Using the researcher's report, create the script for a presentation. 
   You MUST return the text of the script for the presenter to read, a description of 
-  the content on the slides, and a description of the images used in each slide.""",
+  the content on the slides, and a description of the images used in each slide. 
+  The presentation should be between 4 and 10 slides in length.""",
   agent=presenter
 )
 

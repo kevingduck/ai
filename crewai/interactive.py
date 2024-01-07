@@ -1,3 +1,21 @@
+"""
+This script lets users create and manage a workflow with a team of virtual agents. 
+
+Users can define agents by specifying their roles, goals, and backstories, and assign them tasks. 
+
+The script confirms each input for accuracy and allows adding multiple agents and tasks. 
+
+To use it: 
+- install ollama (https://ollama.ai) 
+- from a terminal window run `ollama run mistral:instruct` to download the model
+- from a terminal window run `pip install -U crewai duckduckgo-search`
+- download and run this script (in terminal, `python interactive.py`
+
+Follow the prompts to input agent and task details, and the workflow is executed sequentially, 
+displaying the results at the end. Ideal for interactive and customizable task automation.
+"""
+
+
 import os
 from crewai import Agent, Task, Crew, Process
 from langchain.llms import Ollama

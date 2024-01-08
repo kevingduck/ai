@@ -29,4 +29,5 @@ Here are some links to AI tools that I find useful.
 - [crewai](https://github.com/joaomdmoura/crewAI) is really impressive. In a few lines of code, you set up a **team** of specialists and give them a goal and they work together to achieve it.
   - Example: you set up a researcher, a writer, and a PowerPoint prentation specialist, then tell them to analyze and report on the latest financial statements from a given company. The researcher finds the information online, the writer generates a report based off of the researcher's analysis, and the PowerPoint specialist creates content for each slide, **including a description of the image in the slide, which can be used to generate an actual image by feeding it into MidJourney, Dall-E, etc.** 
   - Try this out here: https://github.com/kevingduck/ai/blob/main/crewai/app.py
-  - ⭐ Try this! Run CrewAI and create agents/ tasks easily https://github.com/kevingduck/ai/blob/main/crewai/interactive.py
+  - ⭐ Try this! [Run CrewAI and create agents/ tasks easily](https://github.com/kevingduck/ai/blob/main/crewai/interactive.py)
+- ⭐ Fine-tune your own model. Give a bot your docs (emails, chats, whatever) and train it to sound like you. [Instructions here](https://www.youtube.com/watch?v=74NSDMvYZ9Y).

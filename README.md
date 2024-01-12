@@ -14,7 +14,7 @@ Here are some links to AI tools that I find useful.
 
 ## Prompting tips
 - Prompting (i.e., the instructions you give to the model) determines whether your GPT outputs will be any good. Better prompts = better responses. [This post](https://cloud.google.com/blog/products/application-development/five-best-practices-for-prompt-engineering) has some tips on prompting.
-- [Specific tips]([url](https://github.com/kevingduck/ai/blob/main/prompting_tips.md)) for prompting from [thepromptindex.com](https://www.thepromptindex.com/the-science-of-prompting-chatgpt:-26-principles-to-unlock-its-potential.html).
+- [Specific tips](https://github.com/kevingduck/ai/blob/main/prompting_tips.md) for prompting from [thepromptindex.com](https://www.thepromptindex.com/the-science-of-prompting-chatgpt:-26-principles-to-unlock-its-potential.html).
 
 ## YouTube Channels
 - [Matthew Berman](https://www.youtube.com/@matthew_berman) makes lots of videos where he tests new AI apps and models. Good for keeping up with latest trends. 

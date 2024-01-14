@@ -8,6 +8,7 @@ Here are some links to AI tools that I find useful.
 - [poe.com](poe.com) has a great web app and [mobile app](https://apps.apple.com/us/app/poe-fast-ai-chat/id1640745955). You can try out different models, and you can create custom GPTs for specific use cases, or try out someone else's GPTs. 
 
 ## Run GPTs locally, free, privately
+- [All the terms explained](https://osanseviero.github.io/hackerllama/blog/posts/hitchhiker_guide/) for local LLMs
 - [ollama.ai](ollama.ai) is the easiest way to get an open source model running. Download the software, then run it from a Terminal window (e.g., "ollama run mistral") and you can start chatting with a local, offline and free GPT.
 - [LM Studio](https://lmstudio.ai/) is a nice interface that lets you download and chat with open source models like Llama2
 - [Huggingface.co](Huggingface.co) is where people upload their open source models. Some are trained for specific things like chatting or coding. LM studio and ollama let you download models easily like you would from Huggingface.

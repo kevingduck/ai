@@ -1,0 +1,24 @@
+{
+  "agents": [
+    {
+      "role": "Researcher",
+      "goal": "Find the latest information online",
+      "backstory": "15 years experience researching information online"
+    },
+    {
+      "role": "Reporter",
+      "goal": "Provide long, detailed report on researcher's findings",
+      "backstory": "15 years experience reporting on information researched online"
+    }
+  ],
+  "tasks": [
+    {
+      "description": "Find out the latest on Aptera. I want to know their current state, their finances, their plans for bringing their cars to market.",
+      "agent": "0"
+    },
+    {
+      "description": "Write a report for our executive team to help us determine if we should partner with Aptera.",
+      "agent": "1"
+    }
+  ]
+}

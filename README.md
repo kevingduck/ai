@@ -2,10 +2,11 @@
 Here are some links to AI tools that I find useful. 
 
 ## ChatGPT
-- Pay $20 for one month of GPT-4. It's worth it for at least one month to see the GPT-4 performance in addition to the other features like custom GPTs. GPT-3.5 is good but GPT-4 is the current best model out there.
+- ~Pay $20 for one month of GPT-4. It's worth it for at least one month to see the GPT-4 performance in addition to the other features like custom GPTs. GPT-3.5 is good but GPT-4 is the current best model out there.~ I've changed my tune about this ... I still use ChatGPT occasionally, but I canceled my pro subscription in favor of running local open source models 😮
 
 ## Alternatives
-- [poe.com](poe.com) has a great web app and [mobile app](https://apps.apple.com/us/app/poe-fast-ai-chat/id1640745955). You can try out different models, and you can create custom GPTs for specific use cases, or try out someone else's GPTs. 
+- [poe.com](poe.com) has a great web app and [mobile app](https://apps.apple.com/us/app/poe-fast-ai-chat/id1640745955). You can try out different models, and you can create custom GPTs for specific use cases, or try out someone else's GPTs.
+- Try this: [tell this bot](https://poe.com/PoeBotCreater) what kind of custom GPT you want to create. It will generate really good custom instructions, which you can use to create a NEW bot. Copy the generated output, create a new bot, and paste the copied output into the new bot. Now you have your own custom GPT in under a minute. 
 
 ## Run GPTs locally, free, privately
 - [All the terms explained](https://osanseviero.github.io/hackerllama/blog/posts/hitchhiker_guide/) for local LLMs

@@ -9,10 +9,10 @@ Here are some links to AI tools that I find useful.
 - Try this: [tell this bot](https://poe.com/PoeBotCreater) what kind of custom GPT you want to create. It will generate really good custom instructions, which you can use to create a NEW bot. Copy the generated output, create a new bot, and paste the copied output into the new bot. Now you have your own custom GPT in under a minute. 
 
 ## Run GPTs locally, free, privately
-- [All the terms explained](https://osanseviero.github.io/hackerllama/blog/posts/hitchhiker_guide/) for local LLMs
 - [ollama.ai](ollama.ai) is the easiest way to get an open source model running. Download the software, then run it from a Terminal window (e.g., "ollama run mistral") and you can start chatting with a local, offline and free GPT.
 - [LM Studio](https://lmstudio.ai/) is a nice interface that lets you download and chat with open source models like Llama2
 - [Huggingface.co](Huggingface.co) is where people upload their open source models. Some are trained for specific things like chatting or coding. LM studio and ollama let you download models easily like you would from Huggingface.
+- [Glossary of all the terms explained](https://osanseviero.github.io/hackerllama/blog/posts/hitchhiker_guide/) for local LLMs
 
 ## Prompting tips
 - Prompting (i.e., the instructions you give to the model) determines whether your GPT outputs will be any good. Better prompts = better responses. [This post](https://cloud.google.com/blog/products/application-development/five-best-practices-for-prompt-engineering) has some tips on prompting.

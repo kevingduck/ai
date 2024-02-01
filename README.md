@@ -10,6 +10,10 @@ Here are some links to AI tools that I find useful.
 
 ## Run GPTs locally, free, privately
 - [ollama.ai](ollama.ai) is the easiest way to get an open source model running. Download the software, then run it from a Terminal window (e.g., "ollama run mistral") and you can start chatting with a local, offline and free GPT.
+- [WebUI for Ollama](https://github.com/ollama-webui/ollama-webui) lets you run your own chatGPT-like app with any model for free
+
+<img width="1652" alt="image" src="https://github.com/kevingduck/ai/assets/2180038/11152e85-722d-4f82-8d69-8c35912ea6e1">
+
 - [LM Studio](https://lmstudio.ai/) is a nice interface that lets you download and chat with open source models like Llama2
 - [Huggingface.co](Huggingface.co) is where people upload their open source models. Some are trained for specific things like chatting or coding. LM studio and ollama let you download models easily like you would from Huggingface.
 - [Glossary of all the terms explained](https://osanseviero.github.io/hackerllama/blog/posts/hitchhiker_guide/) for local LLMs
